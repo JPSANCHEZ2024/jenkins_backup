@@ -1,0 +1,9 @@
+commit dd7edfd150655b8affc7af90d7a2f2d5a962f16d
+tree fc49c6c7a2c5022f3ea0b2de6a319b7d330e52fc
+parent bf174f570cb1f5875cad3c38b911394ac2ccb5bc
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 19:36:01 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 19:36:01 +0000
+
+    remove plugin
+
+:100644 100644 e69e57999f365bdcf1eaea5451d5daecb7e4180d c0dad43a02fde60c7d7a576a06cd369079f1cda9 M	pom.xml

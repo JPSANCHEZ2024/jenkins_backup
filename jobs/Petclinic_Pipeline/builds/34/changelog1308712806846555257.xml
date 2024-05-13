@@ -1,0 +1,18 @@
+commit 4d968218fa0bd8ffb0e3cb4de300960dc5eecb9d
+tree daa0f179e3eea0b062eb4e53dd0d52a8ec94684d
+parent 6179c45c38b09cf04a43896778a2e226d002522a
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-05 12:36:12 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-05 12:36:12 +0000
+
+    remove ech o at Scan
+
+:100644 100644 b666850a4cd21881808afb5337646a17866aedfa 48af2aab66331ad34fb121f273214ae6691e6ca8 M	Jenkinsfile
+commit 6179c45c38b09cf04a43896778a2e226d002522a
+tree 3aba7d6f16018d443dffbba63e9b7e20d4e65d46
+parent 87de78644bd4a201f80f2e937a2593819c5f620d
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-05 11:54:00 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-05 11:54:00 +0000
+
+    remove echo at Scan
+
+:100644 100644 1fab3707fd8119dce3069f0beff0e0761a4236ec b666850a4cd21881808afb5337646a17866aedfa M	Jenkinsfile

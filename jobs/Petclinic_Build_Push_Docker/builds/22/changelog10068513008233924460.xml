@@ -1,0 +1,9 @@
+commit 1721f450bf8cfcfde81347c1b766574723543608
+tree 4a8a02e53739dd19fc757df9763a931ce129dca3
+parent 1a9f29034ba13defe2063623a3fed955d9ac1d50
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 15:36:33 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 15:36:33 +0000
+
+    Add docker push
+
+:100644 100644 34025d4957ad8cb58f2d5eca111a29f4ac851b7a 3c6c8fd4fff981d639633455e56624e4f4cab4e5 M	Jenkinsfile

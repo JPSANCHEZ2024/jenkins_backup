@@ -1,0 +1,9 @@
+commit 5de9003f8468c1162e74bff3a7ed79f19dbaf68b
+tree 86100d98c3c1750719a3766229e9ff216830d5a0
+parent 58829c79428edaed6cd08d53f996171161000906
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:11:34 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:11:34 +0000
+
+    change SonarQube
+
+:100644 100644 c8e60530ab73381263ab296023f6fd98996c8ed8 b60461054fd6957fb3b95b00ff81d27c8abfb900 M	Jenkinsfile

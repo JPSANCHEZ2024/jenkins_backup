@@ -1,0 +1,37 @@
+#!groovy
+pipeline {
+  agent { label 'target1'}
+  stages {
+    
+    stage('Verification') {
+       agent { label 'target1'}
+       steps {
+                sh 'whoami'
+                sh 'pwd'
+        }
+    }
+
+    stage('Maven Install') {
+        agent { label 'target1'}
+        steps {
+          sh 'mvn clean install'
+        }
+    }
+    stage('Docker Build') {
+      agent { label 'target1'}
+      steps {
+        sh 'sudo docker build -t jpsanchez2024/petclinic:latest .'
+      }
+    }
+
+    stage('Docker Push') {
+    	agent any
+      steps {
+      	withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'omar82432024',    usernameVariable: 'jpsanchez2024')]) {
+        	sh "docker login -u 'jpsanchez2024' -p 'omar82432024'"
+          sh 'docker push jpsanchez2024/petclinic:latest'
+        }
+      }
+    }
+  }
+}

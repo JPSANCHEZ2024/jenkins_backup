@@ -1,0 +1,9 @@
+commit 32cac8977ec519739da8070d5eec659c86b9186e
+tree c1b08f5cceffbc10348c146d3944a4906d59b85f
+parent d2ab345840fbc4b75570ccf284e13fbeb5361230
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:42:23 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:42:23 +0000
+
+    remove scan
+
+:100644 100644 b60461054fd6957fb3b95b00ff81d27c8abfb900 f088b06a769739dc02c8355d73d19c43a114981a M	Jenkinsfile

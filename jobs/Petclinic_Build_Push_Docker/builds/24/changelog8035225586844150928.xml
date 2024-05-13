@@ -1,0 +1,18 @@
+commit 092ade5d841d3a5e51f619136c050cc715f616a0
+tree d9dacc6fa0e5dbc621303609fc819f077c178646
+parent 67c38f9d21d505b6edc301337e5952328757268b
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 15:52:41 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 15:52:41 +0000
+
+    modify syntax label
+
+:100644 100644 2442c9deff548afdfe2b7fc5ff968e8a8b96a0ae 1cd2c9fa598700a2107d7d4bcbfb09a3259435d4 M	Jenkinsfile
+commit 67c38f9d21d505b6edc301337e5952328757268b
+tree 2fa500049807b405877138837117703bcd430ac3
+parent 1721f450bf8cfcfde81347c1b766574723543608
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 15:48:20 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 15:48:20 +0000
+
+    add label in docker push
+
+:100644 100644 3c6c8fd4fff981d639633455e56624e4f4cab4e5 2442c9deff548afdfe2b7fc5ff968e8a8b96a0ae M	Jenkinsfile

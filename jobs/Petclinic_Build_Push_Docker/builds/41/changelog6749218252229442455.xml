@@ -1,0 +1,9 @@
+commit 30cfe22879cfef85454c71b0db6f2f1fe1065205
+tree 03de13c437d1e8a6d136ebefa8c4debaad580df8
+parent d6d585af3b2419864b8593a182ae1a23dd0f462a
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 17:55:27 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 17:55:27 +0000
+
+    remove sonar
+
+:100644 100644 ec2ce6a447f152de164402ddceeedd636a381664 0d00639e0458377479a8326435517596d24091d2 M	Jenkinsfile

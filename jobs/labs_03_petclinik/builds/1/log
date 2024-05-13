@@ -1,0 +1,23 @@
+Started by user [8mha:////4GN1ROba6rkL8g+R+WBDAYZzPAhsPT1c8ORn0oSzkSiqAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/labs_03_petclinik
+The recommended git tool is: NONE
+using credential de81263c-92ab-44d8-b9c3-722ae601ec83
+Cloning the remote Git repository
+Cloning repository https://gitlab.com/ramo8221914/petclinik.git
+ > git init /var/lib/jenkins/workspace/labs_03_petclinik # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision dc3e2ea57199dc0f62259aebefe846b14a6d28f5 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dc3e2ea57199dc0f62259aebefe846b14a6d28f5 # timeout=10
+Commit message: "Update Jenkinsfile"
+First time build. Skipping changelog.
+Finished: SUCCESS

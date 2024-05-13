@@ -1,0 +1,9 @@
+commit 89815bf702b737901507f73352e1558b351e1e5d
+tree 581179671afc0ae9883958aef9acf8324856a82a
+parent 55551528075b7f99eb82bba6989283d220deb966
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:19:48 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:19:48 +0000
+
+    change maven plugin
+
+:100644 100644 ec2ce6a447f152de164402ddceeedd636a381664 9fc933d600ccb7f4b158787273de4d734697cddd M	Jenkinsfile

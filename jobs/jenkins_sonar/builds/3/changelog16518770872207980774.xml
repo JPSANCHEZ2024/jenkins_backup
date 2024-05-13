@@ -1,0 +1,9 @@
+commit bed932a3e77500e08c437dfbec2a8127366e16d5
+tree b7f1d38aaea5c7d003276a6d34e763c01b697204
+parent a0403d95fff86b80bf71ad6a857f73c01a557319
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-26 09:49:36 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-26 09:49:36 +0000
+
+    Update Jenkinsfile
+
+:100644 100644 a8133839918c6beb6a360d52f31b5e1551592e3c 5882e8bf37e0c97d1e25090689dc306e22b7281e M	Jenkinsfile

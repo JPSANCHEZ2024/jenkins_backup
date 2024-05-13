@@ -1,0 +1,894 @@
+Started by user [8mha:////4GN1ROba6rkL8g+R+WBDAYZzPAhsPT1c8ORn0oSzkSiqAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Obtained Jenkinsfile from git https://gitlab.com/ramo8221914/petclinik.git
+[8mha:////4FvnNUzQcf6SQRBa978zCsA0iRBKpIMcnTFriewmdck/AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4ChlXfm51N0IZ0p0tZnhlgIN6NtGrdAm5dfUbeSRjLHAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Fw5a4yZzuk8mHev1LdbHUgZ08bhx8URV7lyjyvbf5rBAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAx2oBn6yfm5BaUlqUX6IYlF6aklxvoAtrpJAscAAAA=[0mTarget3 in /home/azureuser/workspace/Sonar_Petclinic
+[8mha:////4H165PVypWW1TFqXO9eqUYzRx99gdH4n2SFfnS64bJazAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4GS1nN0k3/x/nXLf8nGeouNfwXhcpjrkB6u5hmP1DkT+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Ba6UY/y6bAcWyZs/dMz5RqB0alt7O2L6gJ6Rnw2hCPQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4EjkjueerGpcqjJf41FDcxQYxrkabZxqYJi5fB6o9NXZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential de81263c-92ab-44d8-b9c3-722ae601ec83
+Fetching changes from the remote Git repository
+Checking out Revision 3c719f541c149f15f716edcc9696069fa9af602e (refs/remotes/origin/main)
+Commit message: "add new parameter"
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/Sonar_Petclinic/.git # timeout=10
+ > git config remote.origin.url https://gitlab.com/ramo8221914/petclinik.git # timeout=10
+Fetching upstream changes from https://gitlab.com/ramo8221914/petclinik.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://gitlab.com/ramo8221914/petclinik.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3c719f541c149f15f716edcc9696069fa9af602e # timeout=10
+ > git rev-list --no-walk 873b744ed801fb0a25f2c90d37a88b735f2d5e86 # timeout=10
+[8mha:////4CrfkknqMi0+Ki1Vww9mADD86UInI92mAt/QKe4p4XNXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4NpMzPzhxpSFMNfogqX+B8OM9gdCwB+SL6BYGEUTV2TGAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Bf7Jkdwg2oJT1jjp0ebjXfszh/f8B/Q+AFmGUp5cwUlAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4CgtL3DE7AzyRlwEq6z444U7lM1EpladXvEEqWUtm1LWAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4ADJAv9UaQ2ggxmWzd5QoF5/R0q7AcpkQPNKA++HFB/oAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4Lqw0D6xzXWoxMuNmyFgZiesRkEHfHzC/fanhhMUSmlSAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4OD17EkBE9tBw2hf4MGqT0DaZ+Mx/BYDnRzVVvZ9MW5HAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4IhWWqK1frYdTDWlbWV/78Rf7KIYErA7Ja5lpPmtxUDDAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4GVC8gahcEU4XPMLWPHAFRA8gETrx4FwhVk7BJ+bLwiBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4PtyCLUy6k2iedXs5lePg5wQS+jvAD+UQAvrR9Eqzv6FAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4Br9vPqpOvWApaETwb1+Fk0xGpkMsMkKmONZAM/evM7pAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4JGQmozIL3p/JB3ZtxmZYV1vbimiXH/LYqCjABl2Di2VAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4KlANj8Ea+fCtRVo5jsEFyGpWOo2/7HwUX0AtDSslwzrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4DaEnp6m6eQi32/9EosSbY03TZnD+awTv4XNnAvaENn0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Scan)
+[8mha:////4OjETtjMvWEQikGwxXuCULxITXbHw2FY3Nvi205+SNKAAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4BPq5JUjyE3tE8lH+Ru6NwV8xRtUsdFxzxwFRWs4cqM5AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4OJJm6ddLO5AJ3IjYLttLmYfc7UOleBKDQia7SsXC5dKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4BI0sFFKmBBpbnjuf8qzKyiqyJC/ZGEP9y7oNxnyjKKwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4GIf3Isf0U34cKqDWQ4bKgHX6Xx81nToEu5cAhu+HG2mAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonarqube1
+[8mha:////4ASam5fPDsL+6TGQzhYSviY4jzEErmhom2PUSqfLvxHPAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4Kwk0vyydF5arWxbZRxF2OdzuhPraSTM8kivCN2ZJ9+CAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ mvn -e -X clean org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar
+Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+Maven home: /home/azureuser/tools/hudson.tasks.Maven_MavenInstallation/MAVEN
+Java version: 17.0.11, vendor: Eclipse Adoptium, runtime: /usr/lib/jvm/temurin-17-jdk-amd64
+Default locale: en, platform encoding: UTF-8
+OS name: "linux", version: "6.5.0-1019-azure", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /home/azureuser/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/conf/settings.xml
+[DEBUG] Reading user settings from /home/azureuser/.m2/settings.xml
+[DEBUG] Reading global toolchains from /home/azureuser/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/azureuser/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/azureuser/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/azureuser/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+[DEBUG] Extension realms for project org.springframework.samples:spring-petclinic:jar:2.3.1.BUILD-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:2.3.1.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:2.3.1.RELEASE: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.springframework.samples:spring-petclinic:jar:2.3.1.BUILD-SNAPSHOT
+[DEBUG] Tasks:   [clean]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: org.springframework.samples:spring-petclinic:jar:2.3.1.BUILD-SNAPSHOT
+[DEBUG] Tasks:   [org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 2.3.1.BUILD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.springframework.samples:spring-petclinic:2.3.1.BUILD-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [spring-snapshots (https://repo.spring.io/snapshot, default, releases+snapshots), spring-milestones (https://repo.spring.io/milestone, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [spring-snapshots (https://repo.spring.io/snapshot, default, releases+snapshots), spring-milestones (https://repo.spring.io/milestone, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- clean:3.1.0:clean (default-clean) @ spring-petclinic ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=400602, ConflictMarker.markTime=119501, ConflictMarker.nodeCount=14, ConflictIdSorter.graphTime=237301, ConflictIdSorter.topsortTime=207801, ConflictIdSorter.conflictIdCount=12, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=15925093, ConflictResolver.conflictItemCount=14, DfDependencyCollector.collectTime=157154554, DfDependencyCollector.transformTime=19049512}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.1.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.7.1:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.7.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.2.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.1.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean:default-clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/azureuser/workspace/Sonar_Petclinic/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/azureuser/workspace/Sonar_Petclinic/target/classes
+[DEBUG]   (f) reportDirectory = /home/azureuser/workspace/Sonar_Petclinic/target/classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/azureuser/workspace/Sonar_Petclinic/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/azureuser/workspace/Sonar_Petclinic/target
+[INFO] Deleting file /home/azureuser/workspace/Sonar_Petclinic/target/sonar/.sonar_lock
+[INFO] Deleting directory /home/azureuser/workspace/Sonar_Petclinic/target/sonar
+[INFO] Deleting directory /home/azureuser/workspace/Sonar_Petclinic/target
+[DEBUG] Skipping non-existing directory /home/azureuser/workspace/Sonar_Petclinic/target/classes
+[DEBUG] Skipping non-existing directory /home/azureuser/workspace/Sonar_Petclinic/target/test-classes
+[DEBUG] Skipping non-existing directory /home/azureuser/workspace/Sonar_Petclinic/target/classes
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 2.3.1.BUILD-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.springframework.samples:spring-petclinic:2.3.1.BUILD-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [spring-snapshots (https://repo.spring.io/snapshot, default, releases+snapshots), spring-milestones (https://repo.spring.io/milestone, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [spring-snapshots (https://repo.spring.io/snapshot, default, releases+snapshots), spring-milestones (https://repo.spring.io/milestone, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${sonar.skip}</skip>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=8367149, ConflictMarker.markTime=435502, ConflictMarker.nodeCount=278, ConflictIdSorter.graphTime=326202, ConflictIdSorter.topsortTime=93601, ConflictIdSorter.conflictIdCount=113, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=20404520, ConflictResolver.conflictItemCount=212, DfDependencyCollector.collectTime=714905196, DfDependencyCollector.transformTime=29744374}
+[DEBUG] org.springframework.samples:spring-petclinic:jar:2.3.1.BUILD-SNAPSHOT
+[DEBUG]    org.springframework.boot:spring-boot-starter-actuator:jar:2.3.1.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-starter-logging:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]             ch.qos.logback:logback-classic:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]                ch.qos.logback:logback-core:jar:1.2.3:compile (version managed from 1.2.3)
+[DEBUG]             org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3:compile (version managed from 2.13.3)
+[DEBUG]                org.apache.logging.log4j:log4j-api:jar:2.13.3:compile (version managed from 2.13.3)
+[DEBUG]             org.slf4j:jul-to-slf4j:jar:1.7.30:compile (version managed from 1.7.30)
+[DEBUG]          jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile (version managed from 1.3.5)
+[DEBUG]          org.yaml:snakeyaml:jar:1.26:compile (version managed from 1.26)
+[DEBUG]       org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          org.springframework.boot:spring-boot-actuator:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.11.0:compile (version managed from 2.11.0)
+[DEBUG]             com.fasterxml.jackson.core:jackson-annotations:jar:2.11.0:compile (version managed from 2.11.0)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.0:compile (version managed from 2.11.0)
+[DEBUG]       io.micrometer:micrometer-core:jar:1.5.1:compile (version managed from 1.5.1)
+[DEBUG]          org.hdrhistogram:HdrHistogram:jar:2.1.12:compile
+[DEBUG]          org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[DEBUG]    org.springframework.boot:spring-boot-starter-cache:jar:2.3.1.RELEASE:compile
+[DEBUG]       org.springframework:spring-context-support:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]          org.springframework:spring-beans:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]          org.springframework:spring-context:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.1.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-aop:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          org.springframework:spring-aop:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]          org.aspectj:aspectjweaver:jar:1.9.5:compile (version managed from 1.9.5)
+[DEBUG]       org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          com.zaxxer:HikariCP:jar:3.4.5:compile (version managed from 3.4.5)
+[DEBUG]          org.springframework:spring-jdbc:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]       jakarta.transaction:jakarta.transaction-api:jar:1.3.3:compile (version managed from 1.3.3)
+[DEBUG]       jakarta.persistence:jakarta.persistence-api:jar:2.2.3:compile (version managed from 2.2.3)
+[DEBUG]       org.hibernate:hibernate-core:jar:5.4.17.Final:compile (version managed from 5.4.17.Final)
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.4.1.Final:compile (version managed from 3.3.2.Final)
+[DEBUG]          org.javassist:javassist:jar:3.24.0-GA:compile
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.10.11:compile (version managed from 1.10.10)
+[DEBUG]          antlr:antlr:jar:2.7.7:compile (version managed from 2.7.7)
+[DEBUG]          org.jboss:jandex:jar:2.1.3.Final:compile
+[DEBUG]          com.fasterxml:classmate:jar:1.5.1:compile (version managed from 1.5.1)
+[DEBUG]          org.dom4j:dom4j:jar:2.1.3:compile
+[DEBUG]          org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final:compile
+[DEBUG]       org.springframework.data:spring-data-jpa:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          org.springframework.data:spring-data-commons:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          org.springframework:spring-orm:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]          org.springframework:spring-tx:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]       org.springframework:spring-aspects:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:2.3.1.RELEASE:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.0:compile (version managed from 2.11.0)
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.0:compile (version managed from 2.11.0)
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.36:compile (version managed from 9.0.36)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.36:compile (version managed from 9.0.36)
+[DEBUG]       org.springframework:spring-web:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]       org.springframework:spring-webmvc:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]          org.springframework:spring-expression:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]    org.springframework.boot:spring-boot-starter-validation:jar:2.3.1.RELEASE:compile
+[DEBUG]       org.glassfish:jakarta.el:jar:3.0.3:compile (version managed from 3.0.3)
+[DEBUG]       org.hibernate.validator:hibernate-validator:jar:6.1.5.Final:compile (version managed from 6.1.5.Final)
+[DEBUG]          jakarta.validation:jakarta.validation-api:jar:2.0.2:compile (version managed from 2.0.2)
+[DEBUG]    org.springframework.boot:spring-boot-starter-thymeleaf:jar:2.3.1.RELEASE:compile
+[DEBUG]       org.thymeleaf:thymeleaf-spring5:jar:3.0.11.RELEASE:compile (version managed from 3.0.11.RELEASE)
+[DEBUG]          org.thymeleaf:thymeleaf:jar:3.0.11.RELEASE:compile (version managed from 3.0.11.RELEASE)
+[DEBUG]             org.attoparser:attoparser:jar:2.0.5.RELEASE:compile
+[DEBUG]             org.unbescape:unbescape:jar:1.1.6.RELEASE:compile
+[DEBUG]       org.thymeleaf.extras:thymeleaf-extras-java8time:jar:3.0.4.RELEASE:compile (version managed from 3.0.4.RELEASE)
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:2.3.1.RELEASE:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:2.3.1.RELEASE:test (version managed from 2.3.1.RELEASE)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.1.RELEASE:test (version managed from 2.3.1.RELEASE)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.4.0:test (version managed from 2.4.0)
+[DEBUG]          net.minidev:json-smart:jar:2.3:test
+[DEBUG]             net.minidev:accessors-smart:jar:1.2:test
+[DEBUG]                org.ow2.asm:asm:jar:5.0.4:test
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:compile (version managed from 2.3.3)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:compile (version managed from 1.2.2)
+[DEBUG]       org.assertj:assertj-core:jar:3.16.1:test (version managed from 3.16.1)
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]       org.mockito:mockito-core:jar:3.3.3:test (version managed from 3.3.3)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.10.11:test (version managed from 1.10.5)
+[DEBUG]          org.objenesis:objenesis:jar:2.6:test
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.0:test (version managed from 1.5.0)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-core:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]          org.springframework:spring-jcl:jar:5.2.7.RELEASE:compile (version managed from 5.2.7.RELEASE)
+[DEBUG]       org.springframework:spring-test:jar:5.2.7.RELEASE:test (version managed from 5.2.7.RELEASE)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.7.0:test (version managed from 2.7.0)
+[DEBUG]    com.h2database:h2:jar:1.4.200:runtime
+[DEBUG]    mysql:mysql-connector-java:jar:8.0.20:runtime (exclusions managed from [com.google.protobuf:protobuf-java:*:*])
+[DEBUG]    javax.cache:cache-api:jar:1.1.1:compile
+[DEBUG]    org.ehcache:ehcache:jar:3.8.1:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.30:compile (version managed from 1.7.25)
+[DEBUG]       org.glassfish.jaxb:jaxb-runtime:jar:2.3.3:compile (version managed from 2.3.1)
+[DEBUG]          org.glassfish.jaxb:txw2:jar:2.3.3:compile (version managed from 2.3.3)
+[DEBUG]          com.sun.istack:istack-commons-runtime:jar:3.0.11:compile
+[DEBUG]          com.sun.activation:jakarta.activation:jar:1.2.2:runtime (version managed from 1.2.2)
+[DEBUG]    org.webjars:webjars-locator-core:jar:0.45:compile
+[DEBUG]       io.github.classgraph:classgraph:jar:4.8.69:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-core:jar:2.11.0:compile (version managed from 2.10.0)
+[DEBUG]    org.webjars:jquery:jar:2.2.4:compile
+[DEBUG]    org.webjars:jquery-ui:jar:1.11.4:compile
+[DEBUG]    org.webjars:bootstrap:jar:3.3.6:compile
+[DEBUG]    org.junit.jupiter:junit-jupiter-engine:jar:5.6.2:test
+[DEBUG]       org.apiguardian:apiguardian-api:jar:1.1.0:test
+[DEBUG]       org.junit.platform:junit-platform-engine:jar:1.6.2:test (version managed from 1.6.2)
+[DEBUG]          org.opentest4j:opentest4j:jar:1.2.0:test
+[DEBUG]          org.junit.platform:junit-platform-commons:jar:1.6.2:test (version managed from 1.6.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter-api:jar:5.6.2:test (version managed from 5.6.2)
+[DEBUG]    org.mockito:mockito-junit-jupiter:jar:3.3.3:test
+[DEBUG]    org.springframework.boot:spring-boot-devtools:jar:2.3.1.RELEASE:compile (optional)
+[DEBUG]       org.springframework.boot:spring-boot:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[DEBUG]       org.springframework.boot:spring-boot-autoconfigure:jar:2.3.1.RELEASE:compile (version managed from 2.3.1.RELEASE)
+[INFO] 
+[INFO] --- sonar:3.9.0.2155:sonar (default-cli) @ spring-petclinic ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for codehaus.snapshots (http://snapshots.repository.codehaus.org).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=59500, ConflictMarker.markTime=15800, ConflictMarker.nodeCount=7, ConflictIdSorter.graphTime=13400, ConflictIdSorter.topsortTime=14000, ConflictIdSorter.conflictIdCount=6, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=877105, ConflictResolver.conflictItemCount=7, DfDependencyCollector.collectTime=46972176, DfDependencyCollector.transformTime=999905}
+[DEBUG] org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.9.0.2155
+[DEBUG]    org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4:compile
+[DEBUG]       org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.2.1:compile
+[DEBUG]    org.sonarsource.scanner.api:sonar-scanner-api:jar:2.16.1.361:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG] Created new class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155
+[DEBUG] Importing foreign packages into class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155
+[DEBUG]   Included: org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.9.0.2155
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.4
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.2.1
+[DEBUG]   Included: org.sonarsource.scanner.api:sonar-scanner-api:jar:2.16.1.361
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG] Loading mojo org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar from plugin realm ClassRealm[plugin>org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a]
+[DEBUG] Configuring mojo execution 'org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar:default-cli' with basic configurator -->
+[DEBUG]   (f) mojoExecution = org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar {execution: default-cli}
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@38eb0f4d
+[DEBUG]   (f) skip = false
+[DEBUG] -- end configuration --
+[DEBUG] 08:52:42.614 keyStore is : 
+[DEBUG] 08:52:42.614 keyStore type is : pkcs12
+[DEBUG] 08:52:42.614 keyStore provider is : 
+[DEBUG] 08:52:42.614 init keystore
+[DEBUG] 08:52:42.614 init keymanager of type SunX509
+[DEBUG] 08:52:42.746 Create: /home/azureuser/.sonar/cache
+[INFO] 08:52:42.746 User cache: /home/azureuser/.sonar/cache
+[DEBUG] 08:52:42.747 Create: /home/azureuser/.sonar/cache/_tmp
+[DEBUG] 08:52:42.755 Extract sonar-scanner-api-batch in temp...
+[DEBUG] 08:52:42.758 Get bootstrap index...
+[DEBUG] 08:52:42.758 Download: http://52.255.184.96:9000/batch/index
+[DEBUG] 08:52:42.901 Get bootstrap completed
+[DEBUG] 08:52:42.904 Create isolated classloader...
+[DEBUG] 08:52:42.911 Start temp cleaning...
+[DEBUG] 08:52:42.917 Temp cleaning done
+[DEBUG] 08:52:42.918 Execution getVersion
+[INFO] 08:52:42.932 SonarQube version: 10.5.0.89998
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[INFO] 08:52:43.049 Default locale: "en", source code encoding: "UTF-8"
+[DEBUG] 08:52:43.050 Work directory: /home/azureuser/workspace/Sonar_Petclinic/target/sonar
+[DEBUG] 08:52:43.050 Execution execute
+[DEBUG] 08:52:43.581 Community 10.5.0.89998
+[INFO] 08:52:44.042 Load global settings
+[DEBUG] 08:52:44.149 GET 200 http://52.255.184.96:9000/api/settings/values.protobuf | time=105ms
+[INFO] 08:52:44.225 Load global settings (done) | time=183ms
+[INFO] 08:52:44.261 Server id: 147B411E-AY8ZlTS3_PFVXRvpqL6F
+[INFO] 08:52:44.271 User cache: /home/azureuser/.sonar/cache
+[INFO] 08:52:44.280 Loading required plugins
+[INFO] 08:52:44.284 Load plugins index
+[DEBUG] 08:52:44.298 GET 200 http://52.255.184.96:9000/api/plugins/installed | time=14ms
+[INFO] 08:52:44.384 Load plugins index (done) | time=100ms
+[INFO] 08:52:44.384 Load/download plugins
+[INFO] 08:52:44.412 Load/download plugins (done) | time=28ms
+[DEBUG] 08:52:44.415 Plugins not loaded because they are optional: [csharp, flex, go, web, java, javascript, kotlin, php, ruby, sonarscala, vbnet]
+[DEBUG] 08:52:44.442 Plugins loaded:
+[DEBUG] 08:52:44.448   * Python Code Quality and Security 4.17.0.14845 (python)
+[DEBUG] 08:52:44.448   * Clean as You Code 2.3.0.1782 (cayc)
+[DEBUG] 08:52:44.448   * XML Code Quality and Security 2.10.0.4108 (xml)
+[DEBUG] 08:52:44.448   * JaCoCo 1.3.0.1538 (jacoco)
+[DEBUG] 08:52:44.448   * IaC Code Quality and Security 1.27.0.9518 (iac)
+[DEBUG] 08:52:44.448   * Text Code Quality and Security 2.10.0.2188 (text)
+[DEBUG] 08:52:44.738 register org.eclipse.jgit.util.FS$FileStoreAttributes$$Lambda$452/0x00007a45814354d8@7db791df with shutdown hook
+[INFO] 08:52:45.022 Process project properties
+[INFO] 08:52:45.039 Process project properties (done) | time=17ms
+[INFO] 08:52:45.052 Project key: org.springframework.samples:spring-petclinic
+[INFO] 08:52:45.052 Base dir: /home/azureuser/workspace/Sonar_Petclinic
+[INFO] 08:52:45.052 Working dir: /home/azureuser/workspace/Sonar_Petclinic/target/sonar
+[DEBUG] 08:52:45.052 Project global encoding: UTF-8, default locale: en
+[INFO] 08:52:45.068 Load project settings for component key: 'org.springframework.samples:spring-petclinic'
+[DEBUG] 08:52:45.079 GET 404 http://52.255.184.96:9000/api/settings/values.protobuf?component=org.springframework.samples%3Aspring-petclinic | time=11ms
+[DEBUG] 08:52:45.120 Creating module hierarchy
+[DEBUG] 08:52:45.120   Init module 'petclinic'
+[DEBUG] 08:52:45.121     Base dir: /home/azureuser/workspace/Sonar_Petclinic
+[DEBUG] 08:52:45.121     Working dir: /home/azureuser/workspace/Sonar_Petclinic/target/sonar
+[DEBUG] 08:52:45.121     Module global encoding: UTF-8, default locale: en
+[INFO] 08:52:45.149 Load quality profiles
+[DEBUG] 08:52:45.155 GET 404 http://52.255.184.96:9000/api/qualityprofiles/search.protobuf?project=org.springframework.samples%3Aspring-petclinic | time=5ms
+[DEBUG] 08:52:45.223 GET 200 http://52.255.184.96:9000/api/qualityprofiles/search.protobuf?defaults=true | time=61ms
+[INFO] 08:52:45.264 Load quality profiles (done) | time=115ms
+[INFO] 08:52:45.291 Auto-configuring with CI 'Jenkins'
+[INFO] 08:52:45.351 Load active rules
+[DEBUG] 08:52:45.523 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=8cb9f5ab-911f-4349-a42d-abfaa6305145&ps=500&p=1 | time=171ms
+[DEBUG] 08:52:45.910 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=c6c075e2-0d6e-421e-be1d-2e91c61a3211&ps=500&p=1 | time=104ms
+[DEBUG] 08:52:46.039 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=6bdf52ec-df1c-464d-ac29-e6cfeab15e66&ps=500&p=1 | time=106ms
+[DEBUG] 08:52:46.084 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=0f922613-8890-4bbf-a685-3fdccd14d22b&ps=500&p=1 | time=16ms
+[DEBUG] 08:52:47.297 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=edbdb7bb-2076-45f2-89c1-0f16cb440e17&ps=500&p=1 | time=1211ms
+[DEBUG] 08:52:48.211 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=bc2c8113-05b2-413c-b3db-b09efe4735b5&ps=500&p=1 | time=696ms
+[DEBUG] 08:52:48.381 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=39f4d13f-fa40-4544-b5c5-46cd5b03b414&ps=500&p=1 | time=110ms
+[DEBUG] 08:52:49.710 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=ee8ca1c4-f5ae-48d4-8958-33e694bba888&ps=500&p=1 | time=1320ms
+[DEBUG] 08:52:49.859 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=ee8ca1c4-f5ae-48d4-8958-33e694bba888&ps=500&p=2 | time=99ms
+[DEBUG] 08:52:50.069 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=db0c9fb3-adb6-495a-8314-004761fefedb&ps=500&p=1 | time=208ms
+[DEBUG] 08:52:50.198 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=4526a4f3-10ec-41f3-ab3a-4dcda50cb4a9&ps=500&p=1 | time=120ms
+[DEBUG] 08:52:50.265 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=ce7a7c8f-31fe-442c-a54c-f9a747ba320e&ps=500&p=1 | time=65ms
+[DEBUG] 08:52:50.278 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=9024208e-5504-4570-a606-ba3ac4293965&ps=500&p=1 | time=11ms
+[DEBUG] 08:52:50.291 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=847f6963-b941-440c-a5c8-297a4a120d6e&ps=500&p=1 | time=13ms
+[DEBUG] 08:52:50.630 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=21fcea78-414a-404b-ab19-92cc5bffeb80&ps=500&p=1 | time=338ms
+[DEBUG] 08:52:50.792 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=3ac3b829-9cf6-492c-b278-9033838c8c38&ps=500&p=1 | time=155ms
+[DEBUG] 08:52:50.807 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=af85b2cc-db0a-4a30-aa36-5065a1170085&ps=500&p=1 | time=11ms
+[DEBUG] 08:52:50.897 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=ed6240fc-2652-43b0-b52f-0eba90a12587&ps=500&p=1 | time=89ms
+[DEBUG] 08:52:51.223 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=4f4a92b6-0528-4391-be54-8bbe248e3ef7&ps=500&p=1 | time=325ms
+[DEBUG] 08:52:51.827 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=9a9eb220-0568-4fba-b8d5-4f1a35942e49&ps=500&p=1 | time=594ms
+[DEBUG] 08:52:51.953 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=b67e718d-eeac-4650-8448-072bc7626897&ps=500&p=1 | time=111ms
+[DEBUG] 08:52:52.861 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=52baa8f2-d6f2-4014-86bd-0ce0451f762d&ps=500&p=1 | time=906ms
+[DEBUG] 08:52:53.344 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=16487291-146a-4209-afc4-8573c0f59ed5&ps=500&p=1 | time=452ms
+[DEBUG] 08:52:53.522 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=a6f17a22-b49e-46b9-b03e-9d4c149e22da&ps=500&p=1 | time=158ms
+[DEBUG] 08:52:53.607 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=bab227d0-be1a-463f-b588-1c082ec339ec&ps=500&p=1 | time=83ms
+[DEBUG] 08:52:54.418 GET 200 http://52.255.184.96:9000/api/rules/list.protobuf?qprofile=14769948-7b6f-4b3c-af97-d10190be103b&ps=500&p=1 | time=810ms
+[INFO] 08:52:54.474 Load active rules (done) | time=9123ms
+[INFO] 08:52:54.486 Load analysis cache
+[DEBUG] 08:52:54.497 GET 404 http://52.255.184.96:9000/api/analysis_cache/get?project=org.springframework.samples:spring-petclinic | time=11ms
+[INFO] 08:52:54.498 Load analysis cache (404) | time=12ms
+[DEBUG] 08:52:54.531 GET 200 http://52.255.184.96:9000/api/languages/list | time=7ms
+[DEBUG] 08:52:54.599 Declared patterns of language Kubernetes were converted to sonar.lang.patterns.kubernetes : 
+[DEBUG] 08:52:54.600 Declared patterns of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss,**/*.sass
+[DEBUG] 08:52:54.602 Declared patterns of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+[DEBUG] 08:52:54.603 Declared patterns of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+[DEBUG] 08:52:54.603 Declared patterns of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.cjs,**/*.mjs,**/*.vue
+[DEBUG] 08:52:54.604 Declared patterns of language Python were converted to sonar.lang.patterns.py : **/*.py
+[DEBUG] 08:52:54.604 Declared patterns of language Docker were converted to sonar.lang.patterns.docker : **/Dockerfile,**/*.dockerfile
+[DEBUG] 08:52:54.604 Declared patterns of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+[DEBUG] 08:52:54.605 Declared patterns of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml,**/*.cmp,**/*.twig
+[DEBUG] 08:52:54.605 Declared patterns of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+[DEBUG] 08:52:54.605 Declared patterns of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl,**/*.config
+[DEBUG] 08:52:54.605 Declared patterns of language JSON were converted to sonar.lang.patterns.json : **/*.json
+[DEBUG] 08:52:54.605 Declared patterns of language Text were converted to sonar.lang.patterns.text : 
+[DEBUG] 08:52:54.605 Declared patterns of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+[DEBUG] 08:52:54.605 Declared patterns of language CloudFormation were converted to sonar.lang.patterns.cloudformation : 
+[DEBUG] 08:52:54.608 Declared patterns of language YAML were converted to sonar.lang.patterns.yaml : **/*.yaml,**/*.yml
+[DEBUG] 08:52:54.608 Declared patterns of language Go were converted to sonar.lang.patterns.go : **/*.go
+[DEBUG] 08:52:54.608 Declared patterns of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt,**/*.kts
+[DEBUG] 08:52:54.615 Declared patterns of language Secrets were converted to sonar.lang.patterns.secrets : 
+[DEBUG] 08:52:54.615 Declared patterns of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+[DEBUG] 08:52:54.615 Declared patterns of language C# were converted to sonar.lang.patterns.cs : **/*.cs,**/*.razor
+[DEBUG] 08:52:54.615 Declared patterns of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+[DEBUG] 08:52:54.615 Declared patterns of language Terraform were converted to sonar.lang.patterns.terraform : **/*.tf
+[DEBUG] 08:52:54.616 Declared patterns of language AzureResourceManager were converted to sonar.lang.patterns.azureresourcemanager : **/*.bicep
+[DEBUG] 08:52:54.618 Declared patterns of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx,**/*.cts,**/*.mts
+[INFO] 08:52:54.631 Preprocessing files...
+[DEBUG] 08:52:54.671 loading config FileBasedConfig[/home/azureuser/.config/jgit/config]
+[DEBUG] 08:52:54.676 readpipe [/usr/bin/git, --version],/usr/bin
+[DEBUG] 08:52:54.694 readpipe may return 'git version 2.34.1'
+[DEBUG] 08:52:54.694 remaining output:
+
+[DEBUG] 08:52:54.695 readpipe [/usr/bin/git, config, --system, --show-origin, --list, -z],/usr/bin
+[DEBUG] 08:52:54.700 readpipe may return 'null'
+[DEBUG] 08:52:54.700 remaining output:
+
+[DEBUG] 08:52:54.724 readpipe rc=128
+[DEBUG] 08:52:54.724 Exception caught during execution of command '[/usr/bin/git, config, --system, --show-origin, --list, -z]' in '/usr/bin', return code '128', error message 'fatal: unable to read config file '/etc/gitconfig': No such file or directory
+'
+[DEBUG] 08:52:54.725 loading config FileBasedConfig[/home/azureuser/.config/git/config]
+[DEBUG] 08:52:54.725 loading config UserConfigFile[/home/azureuser/.gitconfig]
+[DEBUG] 08:52:54.887 102 non excluded files in this Git repository
+[INFO] 08:52:54.980 2 languages detected in 37 preprocessed files
+[INFO] 08:52:54.980 0 files ignored because of scm ignore settings
+[INFO] 08:52:54.986 Loading plugins for detected languages
+[DEBUG] 08:52:54.986 Detected languages: [java, xml]
+[INFO] 08:52:54.986 Load/download plugins
+[INFO] 08:52:55.013 Load/download plugins (done) | time=27ms
+[DEBUG] 08:52:55.013 Optional language-specific plugins not loaded: [csharp, flex, go, web, javascript, kotlin, php, ruby, sonarscala, vbnet]
+[DEBUG] 08:52:55.017 Plugins loaded:
+[DEBUG] 08:52:55.017   * Java Code Quality and Security 7.33.0.35775 (java)
+[INFO] 08:52:55.165 Inconsistent constructor declaration on bean with name 'org.sonarsource.scanner.api.internal.IsolatedClassloader@3ddeaa5f-org.sonar.scanner.issue.IssueFilters': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.sonar.scanner.issue.IssueFilters(org.sonar.api.batch.fs.internal.DefaultInputProject)
+[INFO] 08:52:55.198 Load project repositories
+[DEBUG] 08:52:55.206 GET 404 http://52.255.184.96:9000/batch/project.protobuf?key=org.springframework.samples%3Aspring-petclinic | time=8ms
+[DEBUG] 08:52:55.206 Project repository not available - continuing without it
+[INFO] 08:52:55.207 Load project repositories (done) | time=9ms
+[DEBUG] 08:52:55.229 Available languages:
+[DEBUG] 08:52:55.230   * Java => "java"
+[DEBUG] 08:52:55.230   * Python => "py"
+[DEBUG] 08:52:55.230   * XML => "xml"
+[DEBUG] 08:52:55.233   * Terraform => "terraform"
+[DEBUG] 08:52:55.234   * CloudFormation => "cloudformation"
+[DEBUG] 08:52:55.234   * Kubernetes => "kubernetes"
+[DEBUG] 08:52:55.234   * Docker => "docker"
+[DEBUG] 08:52:55.234   * AzureResourceManager => "azureresourcemanager"
+[DEBUG] 08:52:55.234   * YAML => "yaml"
+[DEBUG] 08:52:55.234   * JSON => "json"
+[DEBUG] 08:52:55.235   * Text => "text"
+[DEBUG] 08:52:55.235   * Secrets => "secrets"
+[INFO] 08:52:55.238 Indexing files...
+[INFO] 08:52:55.243 Project configuration:
+[DEBUG] 08:52:55.247 'pom.xml' indexed with language 'xml'
+[DEBUG] 08:52:55.251 'src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java' indexed with language 'java'
+[DEBUG] 08:52:55.254 'src/main/java/org/springframework/samples/petclinic/visit/VisitRepository.java' indexed with language 'java'
+[DEBUG] 08:52:55.255 'src/main/java/org/springframework/samples/petclinic/visit/Visit.java' indexed with language 'java'
+[DEBUG] 08:52:55.255 'src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java' indexed with language 'java'
+[DEBUG] 08:52:55.255 'src/main/java/org/springframework/samples/petclinic/system/CrashController.java' indexed with language 'java'
+[DEBUG] 08:52:55.255 'src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java' indexed with language 'java'
+[DEBUG] 08:52:55.255 'src/main/java/org/springframework/samples/petclinic/model/Person.java' indexed with language 'java'
+[DEBUG] 08:52:55.255 'src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/model/package-info.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/owner/Pet.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/owner/PetType.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/owner/PetController.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/owner/VisitController.java' indexed with language 'java'
+[DEBUG] 08:52:55.256 'src/main/java/org/springframework/samples/petclinic/owner/Owner.java' indexed with language 'java'
+[DEBUG] 08:52:55.257 'src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java' indexed with language 'java'
+[DEBUG] 08:52:55.257 'src/main/java/org/springframework/samples/petclinic/owner/PetRepository.java' indexed with language 'java'
+[DEBUG] 08:52:55.259 'src/main/java/org/springframework/samples/petclinic/vet/VetController.java' indexed with language 'java'
+[DEBUG] 08:52:55.259 'src/main/java/org/springframework/samples/petclinic/vet/Vets.java' indexed with language 'java'
+[DEBUG] 08:52:55.259 'src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java' indexed with language 'java'
+[DEBUG] 08:52:55.260 'src/main/java/org/springframework/samples/petclinic/vet/Specialty.java' indexed with language 'java'
+[DEBUG] 08:52:55.260 'src/main/java/org/springframework/samples/petclinic/vet/Vet.java' indexed with language 'java'
+[DEBUG] 08:52:55.260 'src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.261 'src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.261 'src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.267 'src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.267 'src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.268 'src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.268 'src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.268 'src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.268 'src/test/java/org/springframework/samples/petclinic/PetclinicIntegrationTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.268 'src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java' indexed as test with language 'java'
+[DEBUG] 08:52:55.269 'src/test/java/org/springframework/samples/petclinic/vet/VetTests.java' indexed as test with language 'java'
+[INFO] 08:52:55.270 37 files indexed
+[INFO] 08:52:55.271 Quality profile for java: Sonar way
+[INFO] 08:52:55.271 Quality profile for xml: Sonar way
+[INFO] 08:52:55.271 ------------- Run sensors on module petclinic
+[INFO] 08:52:55.374 Load metrics repository
+[DEBUG] 08:52:55.399 GET 200 http://52.255.184.96:9000/api/metrics/search?ps=500&p=1 | time=25ms
+[INFO] 08:52:55.415 Load metrics repository (done) | time=41ms
+[DEBUG] 08:52:56.924 'Import external issues report' skipped because one of the required properties is missing
+[DEBUG] 08:52:56.932 'Python Sensor' skipped because there is no related file in current project
+[DEBUG] 08:52:56.933 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
+[DEBUG] 08:52:56.933 'PythonXUnitSensor' skipped because there is no related file in current project
+[DEBUG] 08:52:56.934 'Import of Pylint issues' skipped because there is no related file in current project
+[DEBUG] 08:52:56.935 'Import of Bandit issues' skipped because there is no related file in current project
+[DEBUG] 08:52:56.935 'Import of Flake8 issues' skipped because there is no related file in current project
+[DEBUG] 08:52:56.936 'Import of Mypy issues' skipped because there is no related file in current project
+[DEBUG] 08:52:56.936 'Import of Ruff issues' skipped because there is no related file in current project
+[DEBUG] 08:52:56.936 'Import of Checkstyle issues' skipped because one of the required properties is missing
+[DEBUG] 08:52:56.937 'Import of PMD issues' skipped because one of the required properties is missing
+[DEBUG] 08:52:56.937 'Import of SpotBugs issues' skipped because one of the required properties is missing
+[DEBUG] 08:52:56.938 'Removed properties sensor' skipped because one of the required properties is missing
+[DEBUG] 08:52:56.938 'IaC Terraform Sensor' skipped because there is no related file in current project
+[DEBUG] 08:52:56.938 'IaC CloudFormation Sensor' skipped because there is no related file in current project
+[DEBUG] 08:52:56.939 'IaC Kubernetes Sensor' skipped because there is no related file in current project
+[DEBUG] 08:52:56.939 'IaC AzureResourceManager Sensor' skipped because there is no related file in current project
+[DEBUG] 08:52:56.945 'Generic Test Executions Report' skipped because one of the required properties is missing
+[DEBUG] 08:52:56.945 Sensors : JavaSensor -> SurefireSensor -> XML Sensor -> JaCoCo XML Report Importer -> IaC Docker Sensor -> TextAndSecretsSensor
+[INFO] 08:52:56.947 Sensor JavaSensor [java]
+[INFO] 08:52:56.954 Configured Java source version (sonar.java.source): 8, preview features enabled (sonar.java.enablePreview): false
+[DEBUG] 08:52:56.964 Property 'sonar.java.jdkHome' resolved with:
+[]
+[DEBUG] 08:52:56.974 Property 'sonar.java.libraries' resolved with:
+[/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.3.1.RELEASE/spring-boot-starter-actuator-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.1.RELEASE/spring-boot-starter-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.1.RELEASE/spring-boot-starter-logging-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar,
+/home/azureuser/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar,
+/home/azureuser/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar,
+/home/azureuser/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar,
+/home/azureuser/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar,
+/home/azureuser/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar,
+/home/azureuser/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.3.1.RELEASE/spring-boot-actuator-autoconfigure-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.1.RELEASE/spring-boot-actuator-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar,
+/home/azureuser/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar,
+/home/azureuser/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar,
+/home/azureuser/.m2/repository/io/micrometer/micrometer-core/1.5.1/micrometer-core-1.5.1.jar,
+/home/azureuser/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-cache/2.3.1.RELEASE/spring-boot-starter-cache-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-context-support/5.2.7.RELEASE/spring-context-support-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-context/5.2.7.RELEASE/spring-context-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.3.1.RELEASE/spring-boot-starter-data-jpa-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.3.1.RELEASE/spring-boot-starter-aop-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-aop/5.2.7.RELEASE/spring-aop-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.1.RELEASE/spring-boot-starter-jdbc-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-jdbc/5.2.7.RELEASE/spring-jdbc-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar,
+/home/azureuser/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar,
+/home/azureuser/.m2/repository/org/hibernate/hibernate-core/5.4.17.Final/hibernate-core-5.4.17.Final.jar,
+/home/azureuser/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar,
+/home/azureuser/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar,
+/home/azureuser/.m2/repository/net/bytebuddy/byte-buddy/1.10.11/byte-buddy-1.10.11.jar,
+/home/azureuser/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar,
+/home/azureuser/.m2/repository/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final.jar,
+/home/azureuser/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar,
+/home/azureuser/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar,
+/home/azureuser/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar,
+/home/azureuser/.m2/repository/org/springframework/data/spring-data-jpa/2.3.1.RELEASE/spring-data-jpa-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/data/spring-data-commons/2.3.1.RELEASE/spring-data-commons-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-orm/5.2.7.RELEASE/spring-orm-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-tx/5.2.7.RELEASE/spring-tx-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-aspects/5.2.7.RELEASE/spring-aspects-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.1.RELEASE/spring-boot-starter-web-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.1.RELEASE/spring-boot-starter-json-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar,
+/home/azureuser/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.1.RELEASE/spring-boot-starter-tomcat-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.36/tomcat-embed-core-9.0.36.jar,
+/home/azureuser/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.36/tomcat-embed-websocket-9.0.36.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-webmvc/5.2.7.RELEASE/spring-webmvc-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-expression/5.2.7.RELEASE/spring-expression-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.3.1.RELEASE/spring-boot-starter-validation-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar,
+/home/azureuser/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.5.Final/hibernate-validator-6.1.5.Final.jar,
+/home/azureuser/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.3.1.RELEASE/spring-boot-starter-thymeleaf-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar,
+/home/azureuser/.m2/repository/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar,
+/home/azureuser/.m2/repository/org/attoparser/attoparser/2.0.5.RELEASE/attoparser-2.0.5.RELEASE.jar,
+/home/azureuser/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar,
+/home/azureuser/.m2/repository/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar,
+/home/azureuser/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar,
+/home/azureuser/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/spring-jcl/5.2.7.RELEASE/spring-jcl-5.2.7.RELEASE.jar,
+/home/azureuser/.m2/repository/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar,
+/home/azureuser/.m2/repository/org/ehcache/ehcache/3.8.1/ehcache-3.8.1.jar,
+/home/azureuser/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar,
+/home/azureuser/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar,
+/home/azureuser/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar,
+/home/azureuser/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar,
+/home/azureuser/.m2/repository/org/webjars/webjars-locator-core/0.45/webjars-locator-core-0.45.jar,
+/home/azureuser/.m2/repository/io/github/classgraph/classgraph/4.8.69/classgraph-4.8.69.jar,
+/home/azureuser/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar,
+/home/azureuser/.m2/repository/org/webjars/jquery/2.2.4/jquery-2.2.4.jar,
+/home/azureuser/.m2/repository/org/webjars/jquery-ui/1.11.4/jquery-ui-1.11.4.jar,
+/home/azureuser/.m2/repository/org/webjars/bootstrap/3.3.6/bootstrap-3.3.6.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-devtools/2.3.1.RELEASE/spring-boot-devtools-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot/2.3.1.RELEASE/spring-boot-2.3.1.RELEASE.jar,
+/home/azureuser/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE.jar]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.538 s
+[INFO] Finished at: 2024-05-03T08:52:56Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar (default-cli) on project spring-petclinic: Your project contains .java files, please provide compiled classes with sonar.java.binaries property, or exclude them from the analysis with sonar.exclusions property. -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.0.2155:sonar (default-cli) on project spring-petclinic: Your project contains .java files, please provide compiled classes with sonar.java.binaries property, or exclude them from the analysis with sonar.exclusions property.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: org.apache.maven.plugin.MojoExecutionException: Your project contains .java files, please provide compiled classes with sonar.java.binaries property, or exclude them from the analysis with sonar.exclusions property.
+    at org.sonarsource.scanner.maven.bootstrap.ScannerBootstrapper.execute (ScannerBootstrapper.java:67)
+    at org.sonarsource.scanner.maven.SonarQubeMojo.execute (SonarQubeMojo.java:108)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+Caused by: org.sonar.java.AnalysisException: Your project contains .java files, please provide compiled classes with sonar.java.binaries property, or exclude them from the analysis with sonar.exclusions property.
+    at org.sonar.java.classpath.ClasspathForMain.init (ClasspathForMain.java:73)
+    at org.sonar.java.classpath.AbstractClasspath.getElements (AbstractClasspath.java:319)
+    at org.sonar.java.SonarComponents.getJavaClasspath (SonarComponents.java:206)
+    at org.sonar.java.JavaFrontend.<init> (JavaFrontend.java:95)
+    at org.sonar.plugins.java.JavaSensor.execute (JavaSensor.java:112)
+    at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse (AbstractSensorWrapper.java:64)
+    at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute (ModuleSensorsExecutor.java:88)
+    at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1 (ModuleSensorsExecutor.java:61)
+    at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy (ModuleSensorsExecutor.java:79)
+    at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute (ModuleSensorsExecutor.java:61)
+    at org.sonar.scanner.scan.SpringModuleScanContainer.doAfterStart (SpringModuleScanContainer.java:82)
+    at org.sonar.core.platform.SpringComponentContainer.startComponents (SpringComponentContainer.java:226)
+    at org.sonar.core.platform.SpringComponentContainer.execute (SpringComponentContainer.java:205)
+    at org.sonar.scanner.scan.SpringProjectScanContainer.scan (SpringProjectScanContainer.java:204)
+    at org.sonar.scanner.scan.SpringProjectScanContainer.scanRecursively (SpringProjectScanContainer.java:200)
+    at org.sonar.scanner.scan.SpringProjectScanContainer.doAfterStart (SpringProjectScanContainer.java:173)
+    at org.sonar.core.platform.SpringComponentContainer.startComponents (SpringComponentContainer.java:226)
+    at org.sonar.core.platform.SpringComponentContainer.execute (SpringComponentContainer.java:205)
+    at org.sonar.scanner.bootstrap.SpringScannerContainer.doAfterStart (SpringScannerContainer.java:351)
+    at org.sonar.core.platform.SpringComponentContainer.startComponents (SpringComponentContainer.java:226)
+    at org.sonar.core.platform.SpringComponentContainer.execute (SpringComponentContainer.java:205)
+    at org.sonar.scanner.bootstrap.SpringGlobalContainer.doAfterStart (SpringGlobalContainer.java:138)
+    at org.sonar.core.platform.SpringComponentContainer.startComponents (SpringComponentContainer.java:226)
+    at org.sonar.core.platform.SpringComponentContainer.execute (SpringComponentContainer.java:205)
+    at org.sonar.batch.bootstrapper.Batch.doExecute (Batch.java:71)
+    at org.sonar.batch.bootstrapper.Batch.execute (Batch.java:65)
+    at org.sonarsource.scanner.api.internal.batch.BatchIsolatedLauncher.execute (BatchIsolatedLauncher.java:46)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.sonarsource.scanner.api.internal.IsolatedLauncherProxy.invoke (IsolatedLauncherProxy.java:60)
+    at jdk.proxy3.$Proxy27.execute (Unknown Source)
+    at org.sonarsource.scanner.api.EmbeddedScanner.doExecute (EmbeddedScanner.java:189)
+    at org.sonarsource.scanner.api.EmbeddedScanner.execute (EmbeddedScanner.java:138)
+    at org.sonarsource.scanner.maven.bootstrap.ScannerBootstrapper.execute (ScannerBootstrapper.java:65)
+    at org.sonarsource.scanner.maven.SonarQubeMojo.execute (SonarQubeMojo.java:108)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:283)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:226)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:407)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:348)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
+[DEBUG] 08:52:57.016 Cleanup org.eclipse.jgit.util.FS$FileStoreAttributes$$Lambda$452/0x00007a45814354d8@7db791df during JVM shutdown
+[8mha:////4KO9mUuckUwM7wLU18dxf0A8GfVgsc2faUTh66nEIj9aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+WARN: Unable to locate 'report-task.txt' in the workspace. Did the SonarScanner succeed?
+[8mha:////4EqhQ+uJhp1/V/SDpX9OW+RyHGdzwctuHH9BUDXBmFfLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4PPJfBVSNsuhcaotpPP2X5GgDzA79jcnETQCs7XEoFUCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF5wm4RvgAAAA==[0m[Pipeline] }
+[8mha:////4CpVa1L7+Xtpu8wT9fXznV9ul2mlwu3UBdY4UYebfQgFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPkGA/eC+AAAA[0m[Pipeline] // withEnv
+[8mha:////4K2ikUfdrKEsmjOh1CfCck/XAcDS8dAnp+kOeLyQ+KAoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiSImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoKzrXIf9B2uny1u+AAAA[0m[Pipeline] }
+[8mha:////4CLMPQ3G8iwy6R7QPxi4/gZD0tli76ny8ba81cOy+1PpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCgA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP0WnyTG+AAAA[0m[Pipeline] // stage
+[8mha:////4LewTXxjf8jazkjOMCSVZwEtdT4g+F/NCaTIzPva0OqaAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDEg1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm+7zPOrwgAAAA==[0m[Pipeline] stage
+[8mha:////4FnlB0W7f3NbfAP9Mw5TObsV5ejl21bNRqEUYxTY7MfDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Quality gate)
+Stage "Quality gate" skipped due to earlier failure(s)
+[8mha:////4Ctw+LyUuAYlCAecpIMN+JkxWD8I8BaRrG27xmb7/WtOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] getContext
+[8mha:////4DZH/p4WS3FdMZjRjHe57elDa0sTCpp1QEPC9sHMZP2UAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1K83O2vgAAAA==[0m[Pipeline] }
+[8mha:////4H2eHKiROZ3QkQN9kjEqSGoGz+8/s4rH3PkXQuSm0QMCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KCt40NDIHzlbNaPXfi4Zf0FfNTS6Wj5qx8K4BHy49E8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEg1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+6MA49vgAAAA==[0m[Pipeline] }
+[8mha:////4L8DkyYoa4+ae+XXGNb5cYpMbzrBsB0EWIzMS1/y+JseAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSBRIiCqtlYYXmNgYJ9adsR2SihfxNf6ARSQqtljtbDOvN6xjgBMHg72mwVLsLHo3mrxw4jBcHU/Y8wU7pshOY6unlpVuFmw5aVhSlLASsNHUOY6WTIKt6OVDVk6Sqc4p5O8ooLTqDk8oRDYnGdIX5gC726gi08/zVwCz9wnKfZ2rPnwAidNVgb4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4F6HlnerS8NXS0B7eNLIYQ8uaNMFnfeMcibTtUZd6yaxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOVhn6uuP4MZHX6+AAAA[0m[Pipeline] }
+[8mha:////4DKDzUxUZF36TJHs2DGxhCkJsnuoaKIbywerAXAiSBBVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY59ptP7D6RsK+AAAA[0m[Pipeline] // withEnv
+[8mha:////4M+rinPc5p2iOr7B22WvbEbIuS7sH+6Lhw8Usqu+VhBcAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0dI6VbYbGE0SIMZDZhWQRKk/k1byDjMxY+av/XvNeb2xTxImjU62lzlOqverD6JanJo7dLfCkWr6qmilxsKqyU8WNPa9YsVisy3JsNHaW6sDJkxPsdWsepgiGXHGRuLijRu6bAU9keimLifKFOeJwH5vE9Ov8DWDue0FeloKs/AD2HAh3vQAAAA==[0m[Pipeline] }
+[8mha:////4A1SZdYrYC+PirCYtM7rasU3KT8SYHvLdvT0RiY0W++/AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId3tBtv0A5aAM1L0AAAA=[0m[Pipeline] // node
+[8mha:////4Onzbl070h0YyKrizYUCy1YY1QpDCmdtTUKuwhVbAQDUAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKPqq+S9AAAA[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE

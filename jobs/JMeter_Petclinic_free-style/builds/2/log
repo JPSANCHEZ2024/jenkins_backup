@@ -1,0 +1,10 @@
+Started by user [8mha:////4GN1ROba6rkL8g+R+WBDAYZzPAhsPT1c8ORn0oSzkSiqAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZB/dLi1CL9rNTEPN2CzNSiolQAWOAy5MYAAAA=[0mJean-Pierre Sanchez
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/JMeter_Petclinic_free-style
+[JMeter_Petclinic_free-style] $ /bin/sh -xe /tmp/jenkins2000217745587417775.sh
++ jmeter -jjmeter.save.saveservice.output_format=xml -n -t /opt/jmeter/bin/petclinik.jmx -l /opt/jmeter/bin/report.jtl
+/tmp/jenkins2000217745587417775.sh: 2: jmeter: not found
+Build step 'Execute shell' marked build as failure
+Creating parser with percentiles:'0,50,90,95,100,' filterRegex:
+Cannot detect file type because of error: Failed to copy /var/lib/jenkins/workspace/JMeter_Petclinic_free-style/opt/jmeter/bin/report.jtl to /var/lib/jenkins/jobs/JMeter_Petclinic_free-style/builds/2/temp/opt/jmeter/bin/report.jtl
+Finished: FAILURE

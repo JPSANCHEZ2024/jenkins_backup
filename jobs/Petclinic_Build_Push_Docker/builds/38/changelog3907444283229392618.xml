@@ -1,0 +1,9 @@
+commit e30863786a3af813178eb44726017c0c4776889a
+tree d6ee1f99d6622520dd1ed4072ff4fddd57b3fc50
+parent a35d45b01fe1883ebf9795f26cf865acf2cbd1bf
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-01 16:03:15 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-01 16:03:15 +0000
+
+    add sudo at docker login
+
+:100644 100644 5dce693dbc433fe5b23cd40d81e932cfa40d3c83 18378c640ce1216fd1fc8662630d8d2e0bb0a845 M	Jenkinsfile

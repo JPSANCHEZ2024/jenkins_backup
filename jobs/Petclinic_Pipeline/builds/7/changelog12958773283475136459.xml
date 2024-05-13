@@ -1,0 +1,9 @@
+commit 55551528075b7f99eb82bba6989283d220deb966
+tree 2d737be03829260f543b35e8cf48c64f3509ec8a
+parent bd01c1ba1dfd735b96ab1a814beb9e6f7a41a4ff
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:15:00 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:15:00 +0000
+
+    remove maven version
+
+:100644 100644 7cb9a19ec81f9b8caf8fbe1773902c36a3934f12 ec2ce6a447f152de164402ddceeedd636a381664 M	Jenkinsfile

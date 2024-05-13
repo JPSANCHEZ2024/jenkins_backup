@@ -1,0 +1,9 @@
+commit 1e0d5c92a9e5ab0dd21693cc40df524ec7a553c5
+tree 3aba7d6f16018d443dffbba63e9b7e20d4e65d46
+parent 4d968218fa0bd8ffb0e3cb4de300960dc5eecb9d
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-05 12:49:46 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-05 12:49:46 +0000
+
+    add  agent label at Scan
+
+:100644 100644 48af2aab66331ad34fb121f273214ae6691e6ca8 b666850a4cd21881808afb5337646a17866aedfa M	Jenkinsfile

@@ -1,0 +1,9 @@
+commit 693d23f6a1475c739db97f7fc0922f53bea9990e
+tree 17838dc17e28b38f76f2e35501031f00572e1f2c
+parent 7749d8913e7428ede52896a239631a331061edde
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:23:11 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:23:11 +0000
+
+    add mvn
+
+:100644 100644 559bed6a4b394d3e0b93e599ae44e3f70eb29d52 2317ae2c5065b3320617907cee3f1a2f132a257c M	Jenkinsfile

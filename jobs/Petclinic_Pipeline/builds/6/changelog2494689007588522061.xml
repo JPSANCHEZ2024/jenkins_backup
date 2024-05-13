@@ -1,0 +1,18 @@
+commit bd01c1ba1dfd735b96ab1a814beb9e6f7a41a4ff
+tree ecec9e95bf1fba44753cd97fd722f31f886c173d
+parent 051177864284b3a578bcafd20e086fd9904b80e7
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:13:29 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:13:29 +0000
+
+    add java version 11
+
+:100644 100644 7dbeca00631ad3ca47b62f1b56a74162e63c3948 a53e5a836f2aecb7e982bdce953cea7b11f5bab7 M	pom.xml
+commit 051177864284b3a578bcafd20e086fd9904b80e7
+tree 35886b1d3cf19ab331e868093a5b2bef9dc3e799
+parent 61d43ae23ab81a6ec10acda5489d77bb487288ef
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:07:58 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:07:58 +0000
+
+    changer to mavne compiler 17
+
+:100644 100644 1cd3bfceb7d203ea2b0d467484ddfc3853ab75ed 7cb9a19ec81f9b8caf8fbe1773902c36a3934f12 M	Jenkinsfile

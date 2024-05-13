@@ -1,0 +1,9 @@
+commit 4101c26b6d23ab9a4bb638e9292dd5110d5d5db4
+tree d9dacc6fa0e5dbc621303609fc819f077c178646
+parent 7e948d2503d610de5d8bbe6e3ab654b68e98a6a4
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 18:31:54 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 18:31:54 +0000
+
+    remove sudo
+
+:100644 100644 5dce693dbc433fe5b23cd40d81e932cfa40d3c83 1cd2c9fa598700a2107d7d4bcbfb09a3259435d4 M	Jenkinsfile

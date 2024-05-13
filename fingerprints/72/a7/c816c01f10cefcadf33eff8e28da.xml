@@ -1,0 +1,117 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-22 15:20:42.82 UTC</timestamp>
+  <md5sum>72a7c816c01f10cefcadf33eff8e28da</md5sum>
+  <fileName>Credential id=de81263c-92ab-44d8-b9c3-722ae601ec83 name=jpsanchez_2@hotmail.com/******</fileName>
+  <usages>
+    <entry>
+      <string>Petclinic_JMeter</string>
+      <ranges>32-33</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Build_Push_Docker</string>
+      <ranges>43-47</ranges>
+    </entry>
+    <entry>
+      <string>Checkstyle_Job</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Sonar_Petclinic</string>
+      <ranges>3-24,27-30</ranges>
+    </entry>
+    <entry>
+      <string>labs_03_petclinik</string>
+      <ranges>1-8</ranges>
+    </entry>
+    <entry>
+      <string>Build_Push_Docker_Petclinic</string>
+      <ranges>39-42</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Pull_Docker</string>
+      <ranges>50-51</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_Pipeline</string>
+      <ranges>31-32,34-38</ranges>
+    </entry>
+    <entry>
+      <string>Jenkins_Docker</string>
+      <ranges>17-22,24-38</ranges>
+    </entry>
+    <entry>
+      <string>Petclinic_OWASP-ZAP</string>
+      <ranges>13-14</ranges>
+    </entry>
+    <entry>
+      <string>TestJavaPipelineSCM</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>TestJavaPipeline</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>jenkins_sonar</string>
+      <ranges>2-9,13</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1713892522135</timestamp>
+      <itemFullName>TestJavaPipelineSCM</itemFullName>
+      <timestamp0>1713810898952</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1713894553991</timestamp>
+      <nodeName>Target1</nodeName>
+      <timestamp0>1713894553991</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714579563489</timestamp>
+      <itemFullName>Jenkins_Docker</itemFullName>
+      <timestamp0>1714333739688</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714650960164</timestamp>
+      <itemFullName>jenkins_sonar</itemFullName>
+      <timestamp0>1714650832736</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714673531898</timestamp>
+      <itemFullName>Build_Push_Docker_Petclinic</itemFullName>
+      <timestamp0>1714672542119</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714721526029</timestamp>
+      <itemFullName>Petclinic_Build_Push_Docker</itemFullName>
+      <timestamp0>1714681810586</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1714728787938</timestamp>
+      <itemFullName>Sonar_Petclinic</itemFullName>
+      <timestamp0>1714727339735</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715525170842</timestamp>
+      <itemFullName>Petclinic_Pipeline</itemFullName>
+      <timestamp0>1715521620666</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715525445874</timestamp>
+      <itemFullName>Petclinic_Pull_Docker</itemFullName>
+      <timestamp0>1715521835688</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715525500865</timestamp>
+      <itemFullName>Petclinic_JMeter</itemFullName>
+      <timestamp0>1715521890692</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715525520879</timestamp>
+      <itemFullName>Petclinic_OWASP-ZAP</itemFullName>
+      <timestamp0>1715521910690</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

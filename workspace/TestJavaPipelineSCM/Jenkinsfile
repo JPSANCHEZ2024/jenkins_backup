@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    tools {
+        maven "MAVEN"
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Build Start'
+                echo 'Test 2 Gitlab JPS'
+                
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'de81263c-92ab-44d8-b9c3-722ae601ec83', url: 'https://gitlab.com/ramo8221914/testjavajenkins.git']])
+                
+                sh 'mvn -B -DskipTests clean package'
+                
+                echo 'Build Finished'
+            }
+        }
+    } 
+}

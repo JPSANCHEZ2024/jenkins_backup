@@ -1,0 +1,9 @@
+commit 873b744ed801fb0a25f2c90d37a88b735f2d5e86
+tree 21df57c2b8020ada44218ee0d4ad6665f51ad9ba
+parent 1378445b72616b16d30fdbfa9d9610b74b705547
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:48:34 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:48:34 +0000
+
+    add capture error -e
+
+:100644 100644 2ba9ca41215fb44ff8512d7685b5986317ddc057 ff22a29a7f3b83338c1cd55562e3d69d57a2501e M	Jenkinsfile

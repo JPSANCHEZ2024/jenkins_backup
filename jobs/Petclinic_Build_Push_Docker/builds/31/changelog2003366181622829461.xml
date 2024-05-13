@@ -1,0 +1,9 @@
+commit 7e948d2503d610de5d8bbe6e3ab654b68e98a6a4
+tree 794030ac896b49fc5ad5181eda8912056f265008
+parent ddc094896854484c52fe9d5c43097cf0f611205a
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 17:45:04 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 17:45:04 +0000
+
+    remove docker tag
+
+:100644 100644 22d028711061321ab9ffc9a760c463a84cc2e5d8 5dce693dbc433fe5b23cd40d81e932cfa40d3c83 M	Jenkinsfile

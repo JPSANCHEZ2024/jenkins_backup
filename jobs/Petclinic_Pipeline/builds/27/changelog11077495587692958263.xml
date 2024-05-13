@@ -1,0 +1,18 @@
+commit d91596a833864be8df40ad6b4f4cbcf523ff14eb
+tree 64a84981feeb05028014b0a5529c250a299b2f23
+parent 0c0e9b866b1672b79ce3a3843731ef025ef36c12
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 09:03:21 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 09:03:21 +0000
+
+    add {{
+
+:100644 100644 6988c68b77fb38b96575d04ed2c77a31ad755b49 e1db1f2e0b39aeef0a7ddd36eafa55fc04e4ff72 M	Jenkinsfile
+commit 0c0e9b866b1672b79ce3a3843731ef025ef36c12
+tree 95954421ca85ff2fe8d6d531e3007cdb8cd8b110
+parent 3c719f541c149f15f716edcc9696069fa9af602e
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 09:01:07 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 09:01:07 +0000
+
+    add path to mvn
+
+:100644 100644 3fc3036bad2da8e9acc8dc6f7ad3cb31e7373338 6988c68b77fb38b96575d04ed2c77a31ad755b49 M	Jenkinsfile

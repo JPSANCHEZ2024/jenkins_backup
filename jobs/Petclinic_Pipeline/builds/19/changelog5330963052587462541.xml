@@ -1,0 +1,9 @@
+commit b84fd484e9822946185710ec88650302a9c5752f
+tree 6e7e66c3b518abeb396a733f7b1b4103193b3b72
+parent 693d23f6a1475c739db97f7fc0922f53bea9990e
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:25:11 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 08:25:11 +0000
+
+    remove name tool
+
+:100644 100644 2317ae2c5065b3320617907cee3f1a2f132a257c 6f562c56fde777a4b858d17c787b5fd82d4f7b60 M	Jenkinsfile

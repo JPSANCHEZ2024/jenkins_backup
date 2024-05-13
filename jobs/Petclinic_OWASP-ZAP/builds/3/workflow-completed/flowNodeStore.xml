@@ -1,0 +1,113 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<linked-hash-map>
+  <entry>
+    <string>2</string>
+    <Tag plugin="workflow-support@896.v175a_a_9c5b_78f">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowStartNode" plugin="workflow-api@1291.v51fd2a_625da_7">
+        <parentIds/>
+        <id>2</id>
+      </node>
+      <actions>
+        <wf.a.TimingAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <startTime>1714903973058</startTime>
+        </wf.a.TimingAction>
+        <wf.a.ErrorAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <error class="java.lang.NoSuchMethodError">
+            <detailMessage>No such DSL method &apos;pileline&apos; found among steps [acceptGitLabMR, addGitLabMRComment, archive, bat, build, catchError, checkout, compareVersions, deleteDir, dir, echo, emailext, emailextrecipients, envVarsForTool, error, fileExists, findBuildScans, findFiles, getContext, git, gitlabBuilds, gitlabCommitStatus, input, isUnix, junit, library, libraryResource, load, mail, milestone, node, nodesByLabel, parallel, powershell, prependToFile, properties, publishChecks, publishHTML, publishIssues, pwd, pwsh, readCSV, readFile, readJSON, readManifest, readMavenPom, readProperties, readTrusted, readYaml, recordIssues, resolveScm, retry, scanForIssues, script, sh, sha1, sha256, sleep, stage, stash, step, tar, tee, timeout, timestamps, tm, tool, touch, unarchive, unstable, unstash, untar, unzip, updateGitlabCommitStatus, validateDeclarativePipeline, verifySha1, verifySha256, waitForBuild, waitForQualityGate, waitUntil, warnError, withChecks, withContext, withCredentials, withEnv, withGradle, withMaven, wrap, writeCSV, writeFile, writeJSON, writeMavenPom, writeYaml, ws, zip] or symbols [CrossCoreEmbeddedStudioParser, GenericTrigger, GitUsernamePassword, PVSStudio, absolute, acuCobol, agent, ajc, all, allBranchesSame, allOf, always, analysisParser, androidLintParser, ansibleLint, ant, antFromApache, antOutcome, antTarget, any, anyOf, apiToken, apiTokenProperty, aquaScanner, architecture, archiveArtifacts, armCc, artifactManager, artifactsPublisher, assembla, authorInChangelog, authorizationMatrix, axivion, axivionSuite, batchFile, bitbucket, bitbucketBranchDiscovery, bitbucketBuildStatusNotifications, bitbucketForkDiscovery, bitbucketPublicRepoPullRequestFilter, bitbucketPullRequestDiscovery, bitbucketServer, bitbucketSshCheckout, bitbucketTagDiscovery, bitbucketTrustEveryone, bitbucketTrustNobody, bitbucketTrustProject, bitbucketTrustTeam, bitbucketWebhookConfiguration, bitbucketWebhookRegistration, bluepearl, booleanParam, brakeman, branch, brokenBuildSuspects, brokenTestsSuspects, browser, buckminster, buildButton, buildDiscarder, buildDiscarders, buildRetention, buildSingleRevisionOnly, buildUser, buildingTag, builtInNode, bzt, cadence, cargo, caseInsensitive, caseSensitive, ccm, certificate, cgit, changeRequest, changelog, changelogBase, changelogToBranch, changeset, checkStyle, checkoutOption, checkoutToSubdirectory, choice, choiceParam, clair, clang, clangAnalyzer, clangTidy, cleanAfterCheckout, cleanBeforeCheckout, cleanWs, clock, cloneOption, cmake, codeAnalysis, codeChecker, codeGeneratorParser, codeNarc, command, concordionPublisher, configFile, configFileProvider, consoleUrlProvider, contributor, coolflux, cpd, cppCheck, cppLint, credentials, cron, crumb, cssLint, culprits, dark, darkSystem, dart, default, defaultDisplayUrlProvider, defaultFolderConfiguration, defaultView, demand, dependenciesFingerprintPublisher, detekt, developers, diabC, disableConcurrentBuilds, disableRestartFromStage, disableResume, discoverOtherRefs, discoverOtherRefsTrait, discoverReferenceBuild, diskSpace, diskSpaceMonitor, docFx, dockerLint, downstream, doxygen, drMemory, dscanner, dumb, dupFinder, durabilityHint, eclipse, email-ext, embeddedEngineerParser, envVars, envVarsFilter, environment, equals, erlc, errorProne, esLint, excludeCategory, excludeFile, excludeMessage, excludeModule, excludeNamespace, excludePackage, excludeType, experimentalFlags, expression, extendedEmailPublisher, file, fileParam, filePath, findBugs, findbugsPublisher, fingerprint, fingerprints, fisheye, flake8, flawfinder, flexSdk, folderConfigFiles, frameOptions, freeStyle, freeStyleJob, fromScm, fromSource, fxcop, gcc, gcc3, gcc4, gendarme, ghsMulti, git, gitBranchDiscovery, gitHooks, gitHubBranchDiscovery, gitHubBranchHeadAuthority, gitHubExcludeArchivedRepositories, gitHubExcludeForkedRepositories, gitHubExcludePrivateRepositories, gitHubExcludePublicRepositories, gitHubForkDiscovery, gitHubIgnoreDraftPullRequestFilter, gitHubPullRequestDiscovery, gitHubSshCheckout, gitHubTagDiscovery, gitHubTopicsFilter, gitHubTrustContributors, gitHubTrustEveryone, gitHubTrustNobody, gitHubTrustPermissions, gitLab, gitLabConnection, gitList, gitSCM, gitTagDiscovery, gitTool, gitUsernamePassword, gitWeb, gitblit, github, githubProjectProperty, githubPush, gitiles, gitlab, globalConfigFiles, gnat, gnuFortran, goLint, goVet, gogs, gradle, groovyScript, group, grype, hadoLint, headRegexFilter, headWildcardFilter, hyperlink, hyperlinkToModels, iar, iarCstat, ibLinter, ideaInspection, ignoreOnPush, inbound, includeCategory, includeFile, includeMessage, includeModule, includeNamespace, includePackage, includeType, infer, inheriting, inheritingGlobal, installSource, intel, invalids, invokerPublisher, isRestartedRun, issues, jacocoPublisher, java, javaDoc, javadoc, jcReport, jdk, jgit, jgitapache, jgivenPublisher, jnlp, jobBuildDiscarder, jobName, jsHint, jsLint, junitParser, junitPublisher, junitTestResultStorage, kiln, klocWork, kotlin, ktLint, label, lastDuration, lastFailure, lastGrantedAuthorities, lastStable, lastSuccess, legacy, legacySCM, lfs, list, local, localBranch, localBranchTrait, location, logRotator, loggedInUsersCanDoAnything, mailer, masterBuild, maven, maven3Mojos, mavenConsole, mavenErrors, mavenGlobalConfig, mavenLinkerPublisher, mavenMojos, mavenWarnings, metrowerksCodeWarrior, mineRepository, modelsim, modernSCM, msBuild, multiBranchProjectDisplayNaming, multibranch, myPy, myView, nagFortran, namedBranchesDifferent, node, nodeProperties, nonInheriting, none, nonresumable, not, oelintAdv, openTasksPublisher, organizationFolder, otDockerLint, overrideIndexTriggers, owaspDependencyCheck, paneStatus, parallelsAlwaysFailFast, parameters, password, pattern, pcLint, pep8, perBuildTag, perfReport, perforce, performanceReport, performanceTest, perlCritic, permanent, phabricator, php, phpCodeSniffer, phpStan, pipeline, pipelineGraphPublisher, pipelineMaven, pipelineTriggers, pit, plainText, plugin, pmdParser, pollSCM, polyspaceParser, prefast, preserveStashes, previous, prism, projectNamingStrategy, protoLint, proxy, pruneStaleBranch, pruneStaleTag, pruneTags, puppetLint, pyDocStyle, pyLint, qacSourceCodeAnalyser, qtTranslation, queueItemAuthenticator, quietPeriod, rateLimit, rateLimitBuilds, recipients, recordIssues, redmine, refSpecs, relative, remoteName, requestor, resharperInspectCode, resourceRoot, responseTime, retainOnlyVariables, revApi, rfLint, rhodeCode, robocopy, ruboCop, run, runParam, sSHLauncher, sarif, scala, schedule, scmGit, scmRetryCount, scriptApproval, scriptApprovalLink, search, security, shell, simian, simpleBuildDiscarder, simulinkCheckParser, skipDefaultCheckout, skipStagesAfterUnstable, slave, snapshotDependencies, sonarQube, sourceRegexFilter, sourceWildcardFilter, sparseCheckoutPaths, sphinxBuild, spotBugs, spotbugsPublisher, ssh, sshUserPrivateKey, standard, status, string, stringParam, styleCop, styleLint, submodule, submoduleOption, sunC, suppressAutomaticTriggering, suppressFolderAutomaticTriggering, swapSpace, swiftLint, tag, tagList, taskScanner, taskingVx, teamFoundation, teamSlugFilter, testCase, text, textParam, themeManager, tiCss, timestamper, timestamperConfig, timezone, tmpSpace, tnsdl, toolLocation, triggeredBy, trivy, tsLint, unsecured, untrusted, upstream, upstreamDevelopers, user, userIdentity, userOrGroup, userSeed, usernameColonPassword, usernamePassword, veracodePipelineScanner, viewgit, viewsTabBar, warningsParsers, weather, withAnt, withSonarQubeEnv, xlc, xmlLint, yamlLint, yuiCompressor, zip, zptLint] or globals [currentBuild, env, params, pipeline, scm]</detailMessage>
+            <stackTrace>
+              <trace>org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:219)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:124)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</trace>
+              <trace>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+              <trace>java.base/java.lang.reflect.Method.invoke(Method.java:568)</trace>
+              <trace>org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)</trace>
+              <trace>groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)</trace>
+              <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)</trace>
+              <trace>groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:41)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)</trace>
+              <trace>org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:180)</trace>
+              <trace>org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)</trace>
+              <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:163)</trace>
+              <trace>org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterceptor.java:148)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:178)</trace>
+              <trace>org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:182)</trace>
+              <trace>com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.LoggingInvoker.methodCall(LoggingInvoker.java:105)</trace>
+              <trace>WorkflowScript.run(WorkflowScript:1)</trace>
+              <trace>___cps.transform___(Native Method)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ContinuationGroup.methodCall(ContinuationGroup.java:90)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:116)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:85)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+              <trace>java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)</trace>
+              <trace>java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+              <trace>java.base/java.lang.reflect.Method.invoke(Method.java:568)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)</trace>
+              <trace>com.cloudbees.groovy.cps.impl.ClosureBlock.eval(ClosureBlock.java:46)</trace>
+              <trace>com.cloudbees.groovy.cps.Next.step(Next.java:83)</trace>
+              <trace>com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:147)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:49)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:180)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:423)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:331)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:295)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:136)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+              <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)</trace>
+              <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+              <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)</trace>
+              <trace>jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)</trace>
+              <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)</trace>
+              <trace>org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)</trace>
+              <trace>org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)</trace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)</trace>
+              <trace>java.base/java.lang.Thread.run(Thread.java:840)</trace>
+            </stackTrace>
+            <suppressedExceptions>
+              <wf.a.ErrorAction_-ErrorId>
+                <stackTrace/>
+                <suppressedExceptions class="empty-list"/>
+                <uuid>a5beb3eb-e462-45e7-9f5a-c6d484456764</uuid>
+              </wf.a.ErrorAction_-ErrorId>
+            </suppressedExceptions>
+          </error>
+        </wf.a.ErrorAction>
+      </actions>
+    </Tag>
+  </entry>
+  <entry>
+    <string>3</string>
+    <Tag plugin="workflow-support@896.v175a_a_9c5b_78f">
+      <node class="org.jenkinsci.plugins.workflow.graph.FlowEndNode" plugin="workflow-api@1291.v51fd2a_625da_7">
+        <parentIds>
+          <string>2</string>
+        </parentIds>
+        <id>3</id>
+        <startId>2</startId>
+        <result>
+          <name>FAILURE</name>
+          <ordinal>2</ordinal>
+          <color>RED</color>
+          <completeBuild>true</completeBuild>
+        </result>
+      </node>
+      <actions>
+        <wf.a.ErrorAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <error class="java.lang.NoSuchMethodError" reference="../../../../../entry/Tag/actions/wf.a.ErrorAction/error"/>
+        </wf.a.ErrorAction>
+        <wf.a.TimingAction plugin="workflow-api@1291.v51fd2a_625da_7">
+          <startTime>1714903973507</startTime>
+        </wf.a.TimingAction>
+      </actions>
+    </Tag>
+  </entry>
+</linked-hash-map>

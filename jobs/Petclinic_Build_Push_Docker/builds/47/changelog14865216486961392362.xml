@@ -1,0 +1,9 @@
+commit b68d37e81531127c0650a5ae238db508c48d25ec
+tree 8b8ae98d241ac2f5475276943ef4aab10f26fa67
+parent c3f3f1a850f5a45f7559b4178f464aacca28636f
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 20:47:30 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 20:47:30 +0000
+
+    add origin pom
+
+:100644 100644 1402e86b2ad144d91777845fd873b37020c4109f 7dbeca00631ad3ca47b62f1b56a74162e63c3948 M	pom.xml

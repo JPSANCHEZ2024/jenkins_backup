@@ -1,0 +1,9 @@
+commit 96b976abfe5a86cf42722ffab10449ea05a9ce92
+tree 6c8428fec71dcb923dd2a52763504c399f04e7ff
+parent 8f789bcada20b4431550cedc9d29c3cbdf7dfc69
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-12 14:46:04 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-12 14:46:04 +0000
+
+    add stage Start SonarQube
+
+:100644 100644 b666850a4cd21881808afb5337646a17866aedfa 9344d1c7bc195e102a4a4dd9c52ec141c4e6f3bd M	Jenkinsfile

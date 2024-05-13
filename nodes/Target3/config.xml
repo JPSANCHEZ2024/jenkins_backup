@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>Target3</name>
+  <description></description>
+  <remoteFS>/home/azureuser</remoteFS>
+  <numExecutors>3</numExecutors>
+  <mode>EXCLUSIVE</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@2.948.vb_8050d697fec">
+    <host>10.0.1.7</host>
+    <port>22</port>
+    <credentialsId>9fdc75bf-7c20-480e-a396-d7848e45eca7</credentialsId>
+    <launchTimeoutSeconds>60</launchTimeoutSeconds>
+    <maxNumRetries>10</maxNumRetries>
+    <retryWaitTime>15</retryWaitTime>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy"/>
+    <tcpNoDelay>true</tcpNoDelay>
+  </launcher>
+  <label>target3</label>
+  <nodeProperties/>
+</slave>

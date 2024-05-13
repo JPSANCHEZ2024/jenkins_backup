@@ -1,0 +1,18 @@
+commit d6d585af3b2419864b8593a182ae1a23dd0f462a
+tree 2c93f1f238d775302cb212efe6a260439214b137
+parent 480937f3d104f3dbd64df5b2ec90204f2cfa65a2
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 12:04:58 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 12:04:58 +0000
+
+    add maven plugin in build
+
+:100644 100644 a53e5a836f2aecb7e982bdce953cea7b11f5bab7 e69e57999f365bdcf1eaea5451d5daecb7e4180d M	pom.xml
+commit 480937f3d104f3dbd64df5b2ec90204f2cfa65a2
+tree 2d737be03829260f543b35e8cf48c64f3509ec8a
+parent 3ab0844c15d7341f15fcd28bd9ff6d5727f7b931
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 10:06:33 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 10:06:33 +0000
+
+    change version java
+
+:100644 100644 6ea5a4b722213a6e5eb720a66fad21b85772a9b7 a53e5a836f2aecb7e982bdce953cea7b11f5bab7 M	pom.xml

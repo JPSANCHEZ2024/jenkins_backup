@@ -1,0 +1,27 @@
+commit 3ab0844c15d7341f15fcd28bd9ff6d5727f7b931
+tree 80d3210676999471346d73b1db2d9e177393a228
+parent 0f74e5023046c4489f6e511cd0f4a9016459923d
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:41:06 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:41:06 +0000
+
+    change java version
+
+:100644 100644 a53e5a836f2aecb7e982bdce953cea7b11f5bab7 6ea5a4b722213a6e5eb720a66fad21b85772a9b7 M	pom.xml
+commit 0f74e5023046c4489f6e511cd0f4a9016459923d
+tree 2d737be03829260f543b35e8cf48c64f3509ec8a
+parent cd571290a1b34eb3b425e24bcaaab170915f7fdd
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:35:47 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:35:47 +0000
+
+    change mavne plugin
+
+:100644 100644 d2913b3beee09c210510f62e2872688cef3a24d2 ec2ce6a447f152de164402ddceeedd636a381664 M	Jenkinsfile
+commit cd571290a1b34eb3b425e24bcaaab170915f7fdd
+tree dbc5fe5b7f3688b4848ffd59157537696b7629c4
+parent 3838632512046e9d73799fae0f70b4f73f9b4331
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:31:41 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 09:31:41 +0000
+
+    change compiler source
+
+:100644 100644 fdcf292bbfcff6ec2082e3b8bc7f500aae350a7d d2913b3beee09c210510f62e2872688cef3a24d2 M	Jenkinsfile

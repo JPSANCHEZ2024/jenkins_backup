@@ -1,0 +1,9 @@
+commit 21dc278757b67bd3809c63b945cf98093ce7d507
+tree 794030ac896b49fc5ad5181eda8912056f265008
+parent 4101c26b6d23ab9a4bb638e9292dd5110d5d5db4
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 18:37:26 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-04-28 18:37:26 +0000
+
+    add sudo
+
+:100644 100644 1cd2c9fa598700a2107d7d4bcbfb09a3259435d4 5dce693dbc433fe5b23cd40d81e932cfa40d3c83 M	Jenkinsfile

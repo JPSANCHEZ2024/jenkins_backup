@@ -1,0 +1,36 @@
+commit 5729d519c7582a9e2c8b005a7c419c4a441efa5f
+tree 227e30e69c4d00a4c694effcebd8850566d4c59b
+parent b6fd6fbea3840097e5c04cabceccdbf237be5033
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 11:55:49 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 11:55:49 +0000
+
+    add label
+
+:100644 100644 c0cabc409cb78873b70167f5fdd25d810113f45a 2ba9ca41215fb44ff8512d7685b5986317ddc057 M	Jenkinsfile
+commit b6fd6fbea3840097e5c04cabceccdbf237be5033
+tree 2df34d4e2e2b56a4f6f0979c345d86d7405a31f8
+parent f73917732863bb69b5d035004180eb7bd4e68858
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 11:53:37 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 11:53:37 +0000
+
+    remove : at label
+
+:100644 100644 9c8c59ce8372a7343d3a74cf514bf15f313cdc5e c0cabc409cb78873b70167f5fdd25d810113f45a M	Jenkinsfile
+commit f73917732863bb69b5d035004180eb7bd4e68858
+tree ec42560ffb1aa848b0ac07708a4fe15545d3e79e
+parent 34baaf3852d88c88ca13af23677cd48f59609b33
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 11:52:15 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 11:52:15 +0000
+
+    remove label
+
+:100644 100644 eeddb5f6b422774b53edb23482a859fe41f5f8b2 9c8c59ce8372a7343d3a74cf514bf15f313cdc5e M	Jenkinsfile
+commit 34baaf3852d88c88ca13af23677cd48f59609b33
+tree a825fdfc2c95e8d207414da103cbdb95f47108d5
+parent 87336da408491f40087ee2b4707e1f02bd076013
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 11:49:13 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 11:49:13 +0000
+
+    add label agent
+
+:100644 100644 5882e8bf37e0c97d1e25090689dc306e22b7281e eeddb5f6b422774b53edb23482a859fe41f5f8b2 M	Jenkinsfile

@@ -1,0 +1,9 @@
+commit f53614e103c034bc275cf5ab7553739b494ba513
+tree cdfce40bcb28a73e18e77e4d621ef07bdd3c2742
+parent bed932a3e77500e08c437dfbec2a8127366e16d5
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 08:58:00 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 08:58:00 +0000
+
+    add maven compiler source
+
+:100644 100644 5882e8bf37e0c97d1e25090689dc306e22b7281e d7bf8976ebaa6f84556b4c3cd777ca934bdd237e M	Jenkinsfile

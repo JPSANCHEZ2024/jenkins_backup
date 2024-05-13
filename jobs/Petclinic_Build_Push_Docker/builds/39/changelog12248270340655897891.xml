@@ -1,0 +1,9 @@
+commit 3c6f0fcaeafca40c22c17425c26c9125c14f5a92
+tree 5e1ea61624f1190d8ce8c29050febb6dc226d3f5
+parent e30863786a3af813178eb44726017c0c4776889a
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-01 18:39:28 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-01 18:39:28 +0000
+
+    add post build 'Pull_Docker_Petclinic'
+
+:100644 100644 18378c640ce1216fd1fc8662630d8d2e0bb0a845 89dc724016c4a1ad93221df9253e260e419e7e25 M	Jenkinsfile

@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2024-04-24 07:07:29.915 UTC</timestamp>
+  <md5sum>fa337080d4c93193ede7810c69831f86</md5sum>
+  <fileName>Credential id=9fdc75bf-7c20-480e-a396-d7848e45eca7 name=azureuser</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715586434420</timestamp>
+      <nodeName>Target3</nodeName>
+      <timestamp0>1715517068212</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715586434603</timestamp>
+      <nodeName>Target2</nodeName>
+      <timestamp0>1715517066776</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1337.v60b_d7b_c7b_c9f">
+      <timestamp>1715586434756</timestamp>
+      <nodeName>Target1</nodeName>
+      <timestamp0>1715517065378</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

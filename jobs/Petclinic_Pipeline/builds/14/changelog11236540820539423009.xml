@@ -1,0 +1,63 @@
+commit 58829c79428edaed6cd08d53f996171161000906
+tree baaa86301b9df9f3fe49c7a0fe4ea3ea3cad4164
+parent dbda61137cedcc070e4153c6d06c54903b972f2c
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 07:56:42 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 07:56:42 +0000
+
+    test sonar qube
+
+:100644 100644 6a6d4adee8e89fd58f363372f3b50cfc9f2452ab c8e60530ab73381263ab296023f6fd98996c8ed8 M	Jenkinsfile
+commit dbda61137cedcc070e4153c6d06c54903b972f2c
+tree 61e62fd6ac9ff9da77c161a6fa1344368061ad9d
+parent b68d37e81531127c0650a5ae238db508c48d25ec
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 07:51:17 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-03 07:51:17 +0000
+
+    add SonarQube
+
+:100644 100644 725f8d9150f88968726aec9b29a9980acc226853 6a6d4adee8e89fd58f363372f3b50cfc9f2452ab M	Jenkinsfile
+commit b68d37e81531127c0650a5ae238db508c48d25ec
+tree 8b8ae98d241ac2f5475276943ef4aab10f26fa67
+parent c3f3f1a850f5a45f7559b4178f464aacca28636f
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 20:47:30 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 20:47:30 +0000
+
+    add origin pom
+
+:100644 100644 1402e86b2ad144d91777845fd873b37020c4109f 7dbeca00631ad3ca47b62f1b56a74162e63c3948 M	pom.xml
+commit c3f3f1a850f5a45f7559b4178f464aacca28636f
+tree fdd3031e32196df6376668c1183c9332d11feba1
+parent dd7edfd150655b8affc7af90d7a2f2d5a962f16d
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 20:29:41 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 20:29:41 +0000
+
+    remove plugin
+
+:100644 100644 c0dad43a02fde60c7d7a576a06cd369079f1cda9 1402e86b2ad144d91777845fd873b37020c4109f M	pom.xml
+commit dd7edfd150655b8affc7af90d7a2f2d5a962f16d
+tree fc49c6c7a2c5022f3ea0b2de6a319b7d330e52fc
+parent bf174f570cb1f5875cad3c38b911394ac2ccb5bc
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 19:36:01 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 19:36:01 +0000
+
+    remove plugin
+
+:100644 100644 e69e57999f365bdcf1eaea5451d5daecb7e4180d c0dad43a02fde60c7d7a576a06cd369079f1cda9 M	pom.xml
+commit bf174f570cb1f5875cad3c38b911394ac2ccb5bc
+tree df9d611c7f0ff16ec5aed986a76f73b72b2bcd7b
+parent 30cfe22879cfef85454c71b0db6f2f1fe1065205
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 18:21:00 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 18:21:00 +0000
+
+    rename build post
+
+:100644 100644 0d00639e0458377479a8326435517596d24091d2 725f8d9150f88968726aec9b29a9980acc226853 M	Jenkinsfile
+commit 30cfe22879cfef85454c71b0db6f2f1fe1065205
+tree 03de13c437d1e8a6d136ebefa8c4debaad580df8
+parent d6d585af3b2419864b8593a182ae1a23dd0f462a
+author Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 17:55:27 +0000
+committer Juan Pedro Sanchez Mercado <jpsanchez_2@hotmail.com> 2024-05-02 17:55:27 +0000
+
+    remove sonar
+
+:100644 100644 ec2ce6a447f152de164402ddceeedd636a381664 0d00639e0458377479a8326435517596d24091d2 M	Jenkinsfile
